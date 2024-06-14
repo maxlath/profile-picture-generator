@@ -73,14 +73,11 @@ a:hover{
     margin: 2vh;
 }
 
-.FrameChooser{
-}
-
 .FrameChooser .frame{
     position: relative;
     display: inline-block;
     font-size: 0;
-    background-color: #fbfbfb;
+    background-color: #444;
 
     margin: 2vh;
     cursor: pointer;
