@@ -9,19 +9,19 @@ import { negotiateLanguages } from '@fluent/langneg'
 
 
 export const locales = {
-    de: 'Deutsch',
-    en: 'English',
-    es: 'Español',
-    pt: 'Português',
+    // de: 'Deutsch',
+    // en: 'English',
+    // es: 'Español',
+    // pt: 'Português',
     fr: 'Français',
-    it: 'Italiano',
-    nl: 'Nederlands',
-    pl: 'Polska',
-    ru: 'Pусский',
+    // it: 'Italiano',
+    // nl: 'Nederlands',
+    // pl: 'Polska',
+    // ru: 'Pусский',
 }
 
 const _supportedLocales_ = Object.keys(locales)
-const _defaultLocale_ = 'en'
+const _defaultLocale_ = 'fr'
 
 
 async function fetchMessages(locale) {

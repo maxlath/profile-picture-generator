@@ -2,9 +2,9 @@ import { useState, useEffect, useCallback } from 'react'
 import { withLocalization } from './Localized.js'
 
 const hashtagNameReplacers = {
-    'IVotedFromAbroad': 'I voted from abroad!',
-    'PeaceInEurope': 'Peace in Europe',
-    'FriedenInEuropa': 'Frieden in Europa',
+    // 'IVotedFromAbroad': 'I voted from abroad!',
+    // 'PeaceInEurope': 'Peace in Europe',
+    // 'FriedenInEuropa': 'Frieden in Europa',
 }
 
 function HashtagChooser({ onChange, getString }) {

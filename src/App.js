@@ -6,6 +6,7 @@ import FrameChooser from './FrameChooser.js'
 import HashtagChooser from './HashtagChooser.js'
 import Editor from './Editor.js'
 import VoltLogoPurple from './VoltLogoPurple.svg'
+import nouveauFrontPopulaire from './nouveauFrontPopulaire.png'
 import purpleBG from './purpleBG.png'
 import empty_1x1 from './empty_1x1.png'
 
@@ -286,7 +287,7 @@ function App({ getString, locales, currentLocale, onLanguageChange }) {
             ])
             .then(b64 => {
                 // set_combinedImage(b64)
-                trigger_download('volt-profile-picture.png', b64)
+                trigger_download('image-de-profil-nouveau-front-populaire.png', b64)
 
                 const frameName = frame.name || 'No-Frame'
                 const hashtagName = hashtag.name || 'No-Hashtag'
@@ -323,7 +324,7 @@ function App({ getString, locales, currentLocale, onLanguageChange }) {
 
     return (
         <div className="App" {...getRootProps()}>
-            <img src={VoltLogoPurple} className="HeaderImage" alt={getString('alt_volt_logo')} />
+            <img src={nouveauFrontPopulaire} className="HeaderImage" alt={getString('alt_nfp_logo')} />
             <h1><Localized id="title_profile_generator" /></h1>
 
             <div className={isDragActive ? 'droparea active' : 'droparea'}>
@@ -371,24 +372,24 @@ function App({ getString, locales, currentLocale, onLanguageChange }) {
             </>) : null}
 
             <footer>
-                <UmamiLink name="imprint" href="https://www.voltdeutschland.org/impressum">
+                {/* <UmamiLink name="imprint" href="https://www.voltdeutschland.org/impressum">
                     <Localized id="link_imprint" />
                 </UmamiLink>
                 &nbsp; • &nbsp;
                 <UmamiLink name="privacy_policy" href="https://www.voltdeutschland.org/datenschutz">
                     <Localized id="link_privacy_policy" />
                 </UmamiLink>
-                &nbsp; • &nbsp;
-                <UmamiLink name="source_code" href="https://github.com/voltbonn/profile-picture-generator">
+                &nbsp; • &nbsp; */}
+                <UmamiLink name="source_code" href="https://github.com/maxlath/profile-picture-generator">
                     <Localized id="link_source_code" />
                 </UmamiLink>
                 &nbsp; • &nbsp;
-                <UmamiLink name="contact" href="mailto:thomas.rosen@volteuropa.org">
+                <UmamiLink name="contact" href="mailto:k+generateur-image-frontpop@maxlath.eu">
                     <Localized id="link_app_contact" />
                 </UmamiLink>
             </footer>
 
-            {
+            {/* {
                 !!locales && !!onLanguageChange
                 ? <div className="locale_chooser">
                     {
@@ -406,7 +407,7 @@ function App({ getString, locales, currentLocale, onLanguageChange }) {
                     }
                 </div>
                 : null
-            }
+            } */}
         </div>
     )
 }
