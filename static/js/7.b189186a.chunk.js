@@ -1,2 +1,0 @@
-(this["webpackJsonpprofile-picture-generator"]=this["webpackJsonpprofile-picture-generator"]||[]).push([[7],{52:function(e,t,p){"use strict";p.r(t),t.default=p.p+"static/media/logo-bas-gauche.940f58d0.png"}}]);
-//# sourceMappingURL=7.b189186a.chunk.js.map
