@@ -35,6 +35,8 @@ jobs:
       - name: Add gh-pages as a dev-dependency
         run: yarn add --dev gh-pages
       - name: Build ReactJS App
+        env:
+          PUBLIC_URL: /generateur-d-image-de-profil
         run: yarn build
       - name: Deploy to GitHub Pages
         uses: Cecilapp/GitHub-Pages-deploy@3.1.0
