@@ -10,13 +10,14 @@ function FrameChooser({ onChange }) {
         async function loadFrames(){
             Promise.all(
                 [
+                    'cadre-cercle',
                     'logo-centre-fond-blanc',
                     'logo-bas-centre-fond-blanc',
                     'logo-bas-gauche',
                     'logo-centre',
                     'cadre',
                     'barre-a-gauche',
-                    // 'rouge',
+                    'grosse-barre-a-gauche',
                 ]
                 .map(async frame_filename => {
                     return {
