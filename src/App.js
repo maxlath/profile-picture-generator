@@ -169,7 +169,7 @@ function App({ getString, locales, currentLocale, onLanguageChange }) {
                             break
                         case 6:
                             // 90° rotate right
-                            original_ration = width / height
+                            original_ration = height / width
                             break
                         case 7:
                             // horizontal flip + 90 rotate right
@@ -239,8 +239,8 @@ function App({ getString, locales, currentLocale, onLanguageChange }) {
                     break
                 case 6:
                     // 90° rotate right
-                    ctx.rotate(0.5 * Math.PI)
-                    ctx.translate(0, -canvas.height)
+                    // ctx.rotate(0.5 * Math.PI)
+                    // ctx.translate(0, -canvas.height)
                     break
                 case 7:
                     // horizontal flip + 90 rotate right
