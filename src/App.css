@@ -39,9 +39,9 @@ footer{
 }
 
 h1{
-    font-size: calc(10px + 10vmin);
+    font-size: calc(10px + 8vmin);
     line-height: 0.9;
-    margin-top: 2vmin;
+    margin-bottom: 3vmin;
 }
 
 h2{

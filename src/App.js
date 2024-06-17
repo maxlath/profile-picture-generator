@@ -323,8 +323,8 @@ function App({ getString, locales, currentLocale, onLanguageChange }) {
 
     return (
         <div className="App" {...getRootProps()}>
-            <img src={nouveauFrontPopulaire} className="HeaderImage" alt={getString('alt_nfp_logo')} />
             <h1><Localized id="title_profile_generator" /></h1>
+            <img src={nouveauFrontPopulaire} className="HeaderImage" alt={getString('alt_nfp_logo')} />
 
             <div className={isDragActive ? 'droparea active' : 'droparea'}>
                 <Localized id="title_drop_photo_here" />

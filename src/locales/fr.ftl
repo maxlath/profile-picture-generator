@@ -1,6 +1,6 @@
 
 alt_nfp_logo = Logo Nouveau Front Populaire
-title_profile_generator = Image de profil
+title_profile_generator = Générateur d'image de profil
 
 title_drop_photo_here = Déposez votre photo ici...
 title_choose_photo = Choisissez votre photo :
