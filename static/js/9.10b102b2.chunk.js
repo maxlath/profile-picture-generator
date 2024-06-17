@@ -1,0 +1,2 @@
+(this["webpackJsonpprofile-picture-generator"]=this["webpackJsonpprofile-picture-generator"]||[]).push([[9],{54:function(e,t,p){"use strict";p.r(t),t.default=p.p+"static/media/logo-bas-centre-fond-blanc.864d48e4.png"}}]);
+//# sourceMappingURL=9.10b102b2.chunk.js.map

@@ -1,2 +1,0 @@
-(this["webpackJsonpprofile-picture-generator"]=this["webpackJsonpprofile-picture-generator"]||[]).push([[9],{54:function(e,t,p){"use strict";p.r(t),t.default=p.p+"static/media/logo-centre-fond-blanc.7721503e.png"}}]);
-//# sourceMappingURL=9.2be653d2.chunk.js.map

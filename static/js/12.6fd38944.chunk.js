@@ -1,0 +1,2 @@
+(this["webpackJsonpprofile-picture-generator"]=this["webpackJsonpprofile-picture-generator"]||[]).push([[12],{57:function(e,t,p){"use strict";p.r(t),t.default=p.p+"static/media/logo-centre.8a3844dc.png"}}]);
+//# sourceMappingURL=12.6fd38944.chunk.js.map
