@@ -187,6 +187,7 @@ button.choosen:after {
     width: calc(36vh - 1px);
     height: calc(36vh - 1px);
     background: var(--editor-purple);
+    border-radius: 100%;
 }
 .Editor .background{
     pointer-events: none;
